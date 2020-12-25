@@ -11,6 +11,7 @@
 		7051B21425938E6900C27E3F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051B21325938E6900C27E3F /* AlertViewController.swift */; };
 		7051B2172593942500C27E3F /* SimpleCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051B2162593942500C27E3F /* SimpleCollectionView.swift */; };
 		7051B21A259395E300C27E3F /* SimpleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051B219259395E300C27E3F /* SimpleCollectionViewCell.swift */; };
+		70AA6D6F2594ACF0006E8E55 /* FrameAndBoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA6D6E2594ACF0006E8E55 /* FrameAndBoundViewController.swift */; };
 		70ACEBC72591EDD20022DE92 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACEBC52591EDD20022DE92 /* DetailViewController.swift */; };
 		70ACEBC82591EDD20022DE92 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACEBC62591EDD20022DE92 /* DetailTableViewController.swift */; };
 		70ACEBD12591FE400022DE92 /* MultiCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACEBD02591FE400022DE92 /* MultiCellTableViewController.swift */; };
@@ -35,6 +36,7 @@
 		7051B21325938E6900C27E3F /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		7051B2162593942500C27E3F /* SimpleCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionView.swift; sourceTree = "<group>"; };
 		7051B219259395E300C27E3F /* SimpleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewCell.swift; sourceTree = "<group>"; };
+		70AA6D6E2594ACF0006E8E55 /* FrameAndBoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndBoundViewController.swift; sourceTree = "<group>"; };
 		70ACEBC52591EDD20022DE92 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		70ACEBC62591EDD20022DE92 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		70ACEBD02591FE400022DE92 /* MultiCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCellTableViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				70D38ABA2591DA5400B84974 /* Main.storyboard */,
+				70AA6D6E2594ACF0006E8E55 /* FrameAndBoundViewController.swift */,
 				70A06EB325939EE000A2B2AE /* SimpleCollectionView */,
 				7051B21325938E6900C27E3F /* AlertViewController.swift */,
 				7051B21025938B1300C27E3F /* ImageFetchViewController.swift */,
@@ -229,6 +232,7 @@
 				70D38ABF2591DA5400B84974 /* Reference_UIKit.xcdatamodeld in Sources */,
 				70DC2A5B25936A4C00B9A933 /* LocalWebviewViewController.swift in Sources */,
 				70D38AB92591DA5400B84974 /* HomeViewController.swift in Sources */,
+				70AA6D6F2594ACF0006E8E55 /* FrameAndBoundViewController.swift in Sources */,
 				7051B21125938B1300C27E3F /* ImageFetchViewController.swift in Sources */,
 				70D38ADA2591E07700B84974 /* TemplateViewController.swift in Sources */,
 				70D38AD02591DC1100B84974 /* SimpleTabTableViewController.swift in Sources */,
