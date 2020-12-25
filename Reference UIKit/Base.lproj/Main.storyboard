@@ -19,18 +19,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IDk-X1-GfK">
-                                <rect key="frame" x="0.0" y="140" width="255" height="573.5"/>
+                                <rect key="frame" x="0.0" y="140" width="255" height="622"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HJy-1a-mNL">
-                                        <rect key="frame" x="20" y="20" width="210" height="520"/>
+                                        <rect key="frame" x="20" y="20" width="210" height="564"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHY-eW-Ftw">
                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Template"/>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PI8-4c-Uje">
+                                                <rect key="frame" x="0.0" y="44" width="139" height="36"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <state key="normal" title="Load Resource"/>
+                                                <connections>
+                                                    <segue destination="Csv-JI-6M1" kind="show" id="ycA-s8-Ipo"/>
+                                                </connections>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDR-JT-DBD">
-                                                <rect key="frame" x="0.0" y="44" width="144" height="36"/>
+                                                <rect key="frame" x="0.0" y="88" width="144" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Frame &amp; Bound"/>
                                                 <connections>
@@ -38,12 +46,12 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acR-2k-G0h">
-                                                <rect key="frame" x="0.0" y="88" width="164" height="36"/>
+                                                <rect key="frame" x="0.0" y="132" width="164" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Code Constraints"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQv-pl-018">
-                                                <rect key="frame" x="0.0" y="132" width="210" height="36"/>
+                                                <rect key="frame" x="0.0" y="176" width="210" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Simple CollectionView"/>
                                                 <connections>
@@ -51,7 +59,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7l-Nm-HdI">
-                                                <rect key="frame" x="0.0" y="176" width="47" height="36"/>
+                                                <rect key="frame" x="0.0" y="220" width="47" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Alert"/>
                                                 <connections>
@@ -59,7 +67,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1c0-fx-TFm">
-                                                <rect key="frame" x="0.0" y="220" width="140" height="36"/>
+                                                <rect key="frame" x="0.0" y="264" width="140" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Local Webview"/>
                                                 <connections>
@@ -67,7 +75,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6x-fd-ZgF">
-                                                <rect key="frame" x="0.0" y="264" width="103" height="36"/>
+                                                <rect key="frame" x="0.0" y="308" width="103" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Fetch Json"/>
                                                 <connections>
@@ -75,7 +83,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ygw-BV-klE">
-                                                <rect key="frame" x="0.0" y="308" width="116" height="36"/>
+                                                <rect key="frame" x="0.0" y="352" width="116" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Fetch Image"/>
                                                 <connections>
@@ -83,7 +91,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMv-Ed-JE3">
-                                                <rect key="frame" x="0.0" y="352" width="184" height="36"/>
+                                                <rect key="frame" x="0.0" y="396" width="184" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="MultiCell TableView"/>
                                                 <connections>
@@ -91,7 +99,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQv-mo-wGp">
-                                                <rect key="frame" x="0.0" y="396" width="155" height="36"/>
+                                                <rect key="frame" x="0.0" y="440" width="155" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Detail TableView"/>
                                                 <connections>
@@ -99,7 +107,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znf-Qq-Nke">
-                                                <rect key="frame" x="0.0" y="440" width="174" height="36"/>
+                                                <rect key="frame" x="0.0" y="484" width="174" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Custom TableView"/>
                                                 <connections>
@@ -107,7 +115,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al1-2v-QCQ">
-                                                <rect key="frame" x="0.0" y="484" width="165" height="36"/>
+                                                <rect key="frame" x="0.0" y="528" width="165" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Simple TableView"/>
                                                 <connections>
@@ -141,6 +149,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="937.68115942028987" y="93.75"/>
+        </scene>
+        <!--Load Resource-->
+        <scene sceneID="IWZ-dp-svn">
+            <objects>
+                <viewController id="Csv-JI-6M1" customClass="LoadResourceViewController" customModule="Reference_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CSp-EQ-45x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ah7-Ua-Hjj">
+                                <rect key="frame" x="0.0" y="310" width="414" height="288"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="K1h-UD-F4m"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Load Resource" id="4eo-PC-GMR"/>
+                    <connections>
+                        <outlet property="imageView" destination="Ah7-Ua-Hjj" id="iiW-dx-az3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dcp-hD-IVy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666.6666666666667" y="101.78571428571428"/>
         </scene>
         <!--Frame & Bound-->
         <scene sceneID="MlG-t8-xFh">
