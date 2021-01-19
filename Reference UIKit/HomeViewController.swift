@@ -7,5 +7,11 @@
 
 import UIKit
 
-class HomeViewController: UIViewController { }
+class HomeViewController: UIViewController {
+    
+    @IBAction func onTap(_ sender: UIButton) {
+        let vc = CompositionalLayout_1()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+}
 

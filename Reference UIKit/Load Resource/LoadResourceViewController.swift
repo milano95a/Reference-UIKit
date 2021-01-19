@@ -22,6 +22,16 @@ class LoadResourceViewController: UIViewController {
                 }
             }
         }
+        
+        if let urlToContents = try? Bundle.main.url(forResource: "mydocument", withExtension: "txt"){
+            if let stringContent = try? String(contentsOf: urlToContents){
+                print(stringContent)
+            }
+            
+            if let dataContent = try? Data(contentsOf: urlToContents){
+                print(dataContent)
+            }
+        }
     }
 
 }

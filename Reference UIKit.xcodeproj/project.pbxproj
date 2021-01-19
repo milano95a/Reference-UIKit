@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7046F08925980D060056E9AB /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046F08825980D060056E9AB /* ImagePickerViewController.swift */; };
+		7046F0D7259A7CB10056E9AB /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046F0D6259A7CB10056E9AB /* AnimateViewController.swift */; };
+		7046F101259A8D3A0056E9AB /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046F100259A8D3A0056E9AB /* Capital.swift */; };
+		7046F104259A8D7A0056E9AB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046F103259A8D7A0056E9AB /* MapViewController.swift */; };
 		7051B21125938B1300C27E3F /* ImageFetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051B21025938B1300C27E3F /* ImageFetchViewController.swift */; };
 		7051B21425938E6900C27E3F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051B21325938E6900C27E3F /* AlertViewController.swift */; };
 		7051B2172593942500C27E3F /* SimpleCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051B2162593942500C27E3F /* SimpleCollectionView.swift */; };
 		7051B21A259395E300C27E3F /* SimpleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051B219259395E300C27E3F /* SimpleCollectionViewCell.swift */; };
+		70655BE2259610C5007FD768 /* CodeConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70655BE1259610C5007FD768 /* CodeConstraintViewController.swift */; };
+		706CF2BB25A980C9004665F0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CF2BA25A980C9004665F0 /* PageViewController.swift */; };
+		7092F76A25A3A67D0073C722 /* RespondToKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7092F76925A3A67D0073C722 /* RespondToKeyboardViewController.swift */; };
 		70AA6D6F2594ACF0006E8E55 /* FrameAndBoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA6D6E2594ACF0006E8E55 /* FrameAndBoundViewController.swift */; };
 		70AA6D782595E90C006E8E55 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70AA6D772595E90B006E8E55 /* nssl0033.jpg */; };
 		70AA6D7B2595E940006E8E55 /* LoadResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA6D7A2595E940006E8E55 /* LoadResourceViewController.swift */; };
+		70AA6D802595F112006E8E55 /* mydocument.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70AA6D7F2595F112006E8E55 /* mydocument.txt */; };
 		70ACEBC72591EDD20022DE92 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACEBC52591EDD20022DE92 /* DetailViewController.swift */; };
 		70ACEBC82591EDD20022DE92 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACEBC62591EDD20022DE92 /* DetailTableViewController.swift */; };
 		70ACEBD12591FE400022DE92 /* MultiCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACEBD02591FE400022DE92 /* MultiCellTableViewController.swift */; };
 		70ACEC4825935B210022DE92 /* JsonFetchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACEC4725935B210022DE92 /* JsonFetchTableViewController.swift */; };
 		70ACEC4B25935B370022DE92 /* JsonResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ACEC4A25935B370022DE92 /* JsonResult.swift */; };
+		70B9A382259C72AC00A60C88 /* CompositionalLayout_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B9A381259C72AB00A60C88 /* CompositionalLayout_1.swift */; };
 		70D38AB52591DA5400B84974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D38AB42591DA5400B84974 /* AppDelegate.swift */; };
 		70D38AB72591DA5400B84974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D38AB62591DA5400B84974 /* SceneDelegate.swift */; };
 		70D38AB92591DA5400B84974 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D38AB82591DA5400B84974 /* HomeViewController.swift */; };
@@ -34,18 +43,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7046F08825980D060056E9AB /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		7046F0D6259A7CB10056E9AB /* AnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
+		7046F100259A8D3A0056E9AB /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+		7046F103259A8D7A0056E9AB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7051B21025938B1300C27E3F /* ImageFetchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetchViewController.swift; sourceTree = "<group>"; };
 		7051B21325938E6900C27E3F /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		7051B2162593942500C27E3F /* SimpleCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionView.swift; sourceTree = "<group>"; };
 		7051B219259395E300C27E3F /* SimpleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewCell.swift; sourceTree = "<group>"; };
+		70655BE1259610C5007FD768 /* CodeConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeConstraintViewController.swift; sourceTree = "<group>"; };
+		706CF2BA25A980C9004665F0 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		7092F76925A3A67D0073C722 /* RespondToKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondToKeyboardViewController.swift; sourceTree = "<group>"; };
 		70AA6D6E2594ACF0006E8E55 /* FrameAndBoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndBoundViewController.swift; sourceTree = "<group>"; };
 		70AA6D772595E90B006E8E55 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		70AA6D7A2595E940006E8E55 /* LoadResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadResourceViewController.swift; sourceTree = "<group>"; };
+		70AA6D7F2595F112006E8E55 /* mydocument.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mydocument.txt; sourceTree = "<group>"; };
 		70ACEBC52591EDD20022DE92 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		70ACEBC62591EDD20022DE92 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		70ACEBD02591FE400022DE92 /* MultiCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCellTableViewController.swift; sourceTree = "<group>"; };
 		70ACEC4725935B210022DE92 /* JsonFetchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonFetchTableViewController.swift; sourceTree = "<group>"; };
 		70ACEC4A25935B370022DE92 /* JsonResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonResult.swift; sourceTree = "<group>"; };
+		70B9A381259C72AB00A60C88 /* CompositionalLayout_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayout_1.swift; sourceTree = "<group>"; };
 		70D38AB12591DA5400B84974 /* Reference UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reference UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D38AB42591DA5400B84974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70D38AB62591DA5400B84974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7046F106259A8D800056E9AB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7046F103259A8D7A0056E9AB /* MapViewController.swift */,
+				7046F100259A8D3A0056E9AB /* Capital.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		70A06EB325939EE000A2B2AE /* SimpleCollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,7 @@
 		70AA6D7D2595EB8F006E8E55 /* Load Resource */ = {
 			isa = PBXGroup;
 			children = (
+				70AA6D7F2595F112006E8E55 /* mydocument.txt */,
 				70AA6D7A2595E940006E8E55 /* LoadResourceViewController.swift */,
 				70AA6D772595E90B006E8E55 /* nssl0033.jpg */,
 			);
@@ -129,6 +157,13 @@
 			isa = PBXGroup;
 			children = (
 				70D38ABA2591DA5400B84974 /* Main.storyboard */,
+				706CF2BA25A980C9004665F0 /* PageViewController.swift */,
+				7092F76925A3A67D0073C722 /* RespondToKeyboardViewController.swift */,
+				70B9A381259C72AB00A60C88 /* CompositionalLayout_1.swift */,
+				7046F106259A8D800056E9AB /* Map */,
+				7046F0D6259A7CB10056E9AB /* AnimateViewController.swift */,
+				7046F08825980D060056E9AB /* ImagePickerViewController.swift */,
+				70655BE1259610C5007FD768 /* CodeConstraintViewController.swift */,
 				70AA6D7D2595EB8F006E8E55 /* Load Resource */,
 				70AA6D6E2594ACF0006E8E55 /* FrameAndBoundViewController.swift */,
 				70A06EB325939EE000A2B2AE /* SimpleCollectionView */,
@@ -226,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AA6D802595F112006E8E55 /* mydocument.txt in Resources */,
 				70D38AC42591DA5A00B84974 /* LaunchScreen.storyboard in Resources */,
 				70AA6D782595E90C006E8E55 /* nssl0033.jpg in Resources */,
 				70D38AC12591DA5A00B84974 /* Assets.xcassets in Resources */,
@@ -244,19 +280,27 @@
 				70ACEC4825935B210022DE92 /* JsonFetchTableViewController.swift in Sources */,
 				70ACEBD12591FE400022DE92 /* MultiCellTableViewController.swift in Sources */,
 				70ACEBC72591EDD20022DE92 /* DetailViewController.swift in Sources */,
+				70B9A382259C72AC00A60C88 /* CompositionalLayout_1.swift in Sources */,
 				70D38ABF2591DA5400B84974 /* Reference_UIKit.xcdatamodeld in Sources */,
 				70DC2A5B25936A4C00B9A933 /* LocalWebviewViewController.swift in Sources */,
 				70D38AB92591DA5400B84974 /* HomeViewController.swift in Sources */,
 				70AA6D6F2594ACF0006E8E55 /* FrameAndBoundViewController.swift in Sources */,
+				7046F104259A8D7A0056E9AB /* MapViewController.swift in Sources */,
 				70AA6D7B2595E940006E8E55 /* LoadResourceViewController.swift in Sources */,
 				7051B21125938B1300C27E3F /* ImageFetchViewController.swift in Sources */,
+				70655BE2259610C5007FD768 /* CodeConstraintViewController.swift in Sources */,
 				70D38ADA2591E07700B84974 /* TemplateViewController.swift in Sources */,
+				7046F0D7259A7CB10056E9AB /* AnimateViewController.swift in Sources */,
+				706CF2BB25A980C9004665F0 /* PageViewController.swift in Sources */,
 				70D38AD02591DC1100B84974 /* SimpleTabTableViewController.swift in Sources */,
+				7046F101259A8D3A0056E9AB /* Capital.swift in Sources */,
 				7051B2172593942500C27E3F /* SimpleCollectionView.swift in Sources */,
 				70D38AD62591DFCD00B84974 /* CustomTableViewCell.swift in Sources */,
 				70ACEBC82591EDD20022DE92 /* DetailTableViewController.swift in Sources */,
+				7046F08925980D060056E9AB /* ImagePickerViewController.swift in Sources */,
 				7051B21425938E6900C27E3F /* AlertViewController.swift in Sources */,
 				70D38AB52591DA5400B84974 /* AppDelegate.swift in Sources */,
+				7092F76A25A3A67D0073C722 /* RespondToKeyboardViewController.swift in Sources */,
 				70ACEC4B25935B370022DE92 /* JsonResult.swift in Sources */,
 				70D38AD32591DFA500B84974 /* CustomTableViewController.swift in Sources */,
 				70D38AB72591DA5400B84974 /* SceneDelegate.swift in Sources */,
